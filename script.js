@@ -52,17 +52,31 @@
 // const [gold, silver] = scores;
 
 // DESTRUCTURING OBJECT
-// const user = {
-//   email: "douglaslombard29@gmail.com",
-//   password: "shakdeeisjasd",
-//   firstName: "Douglas",
-//   lastName: "Lombard",
-//   born: 1997,
-//   bio: "Douglas Lombard is a frontend developer",
-//   city: "Cape Town",
-//   province: "Western Province",
-// };
+const user = {
+  email: "douglaslombard29@gmail.com",
+  password: "shakdeeisjasd",
+  firstName: "Douglas",
+  lastName: "Lombard",
+  born: 1997,
+  bio: "Douglas Lombard is a frontend developer",
+  city: "Cape Town",
+  province: "Western Province",
+};
 
 // const {email, firstName, lastName, city} = user;
 
 // const {born: birthYear} = user;
+
+// DESTRUCTURING PARAMS
+// function fullName(user) {
+//   return `${user.firstName} ${user.lastName}`;
+// }
+
+// function fullName(user) {
+//   const {firstName, lastName} = user;
+//   return `${firstName} ${lastName}`;
+// }
+
+function fullName({firstName, lastName}) {
+  return `${firstName} ${lastName}`;
+}
