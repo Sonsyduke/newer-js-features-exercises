@@ -47,6 +47,22 @@
 // }
 
 // DESTRUCTURING ARRAY
-const scores = [123242, 847592, 467352, 462571, 462816, 467921];
+// const scores = [123242, 847592, 467352, 462571, 462816, 467921];
 
-const [gold, silver] = scores;
+// const [gold, silver] = scores;
+
+// DESTRUCTURING OBJECT
+// const user = {
+//   email: "douglaslombard29@gmail.com",
+//   password: "shakdeeisjasd",
+//   firstName: "Douglas",
+//   lastName: "Lombard",
+//   born: 1997,
+//   bio: "Douglas Lombard is a frontend developer",
+//   city: "Cape Town",
+//   province: "Western Province",
+// };
+
+// const {email, firstName, lastName, city} = user;
+
+// const {born: birthYear} = user;
