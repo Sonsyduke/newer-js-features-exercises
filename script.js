@@ -40,8 +40,13 @@
 //   return nums.reduce((total, el) => total + el);
 // }
 
-function raceResults(gold, silver, ...everyoneElse) {
-  console.log(`Gold medal goes to : ${gold}`);
-  console.log(`Silver medal goes to : ${silver}`);
-  console.log(`And thanks to everyone else : ${everyoneElse}`);
-}
+// function raceResults(gold, silver, ...everyoneElse) {
+//   console.log(`Gold medal goes to : ${gold}`);
+//   console.log(`Silver medal goes to : ${silver}`);
+//   console.log(`And thanks to everyone else : ${everyoneElse}`);
+// }
+
+// DESTRUCTURING ARRAY
+const scores = [123242, 847592, 467352, 462571, 462816, 467921];
+
+const [gold, silver] = scores;
