@@ -20,16 +20,28 @@
 // const allPets = [...dogs, ...cats];
 
 // SPREAD ON OBJECTS
-const dog = {
-  name: "Rolly",
-  age: 1,
-  type: "dog",
-};
+// const dog = {
+//   name: "Rolly",
+//   age: 1,
+//   type: "dog",
+// };
 
-const cat = {
-  name: "Matt",
-  age: 5,
-  type: "cat",
-};
+// const cat = {
+//   name: "Matt",
+//   age: 5,
+//   type: "cat",
+// };
 
-const myPets = {...dog, ...cat};
+// const myPets = {...dog, ...cat};
+// SECOND OBJECT OVER SHADOWS THE FIRST ONE
+
+// REST PARAMS
+// function sum(...nums) {
+//   return nums.reduce((total, el) => total + el);
+// }
+
+function raceResults(gold, silver, ...everyoneElse) {
+  console.log(`Gold medal goes to : ${gold}`);
+  console.log(`Silver medal goes to : ${silver}`);
+  console.log(`And thanks to everyone else : ${everyoneElse}`);
+}
